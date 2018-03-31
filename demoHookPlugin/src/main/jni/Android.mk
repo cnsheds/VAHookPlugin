@@ -8,6 +8,6 @@ LOCAL_LDLIBS    := -llog
 LOCAL_MODULE:= helloJni
 
 LOCAL_CFLAGS := -Wno-error=format-security -fpermissive
-LOCAL_CFLAGS += -fno-rtti -fno-exceptions
+LOCAL_CFLAGS += -fno-rtti -fexceptions
 
 include $(BUILD_SHARED_LIBRARY)
